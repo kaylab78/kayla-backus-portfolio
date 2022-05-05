@@ -5,6 +5,45 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header and Navigation Section */
+header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+/* Hero */
+.hero {
+    background-image: url("../images/Kayla-Backus_Serenity-Photography-by-Nicole_14.jpg");
+    background-size: cover;
+}
+
+/* About Section */
+
+/* Work Section */
+
+/* Contact Section */
+
+/* Footer */
