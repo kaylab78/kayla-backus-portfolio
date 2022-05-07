@@ -61,6 +61,10 @@ header nav a:hover {
 }
 
 /* About Section */
+.content {
+    display: flex;
+}
+
 .about-me {
     padding: 10px 35px;
     display: flex;
@@ -68,8 +72,6 @@ header nav a:hover {
     align-items: center;
     justify-content: space-between;
 }
-
-.about-me
 
 /* Work Section */
 .my-work {
