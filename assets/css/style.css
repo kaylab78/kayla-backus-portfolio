@@ -19,10 +19,11 @@ body {
 /* Header and Navigation Section */
 header {
     background-color: var(--second-color);
+    padding: 20px 35px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px 35px;
+    align-items: center;
 }
 
 header h1 {
@@ -49,15 +50,15 @@ header nav a {
 }
 
 /* Hero */
-.hero {
-    background-image: url("../images/Kayla-Backus_Serenity-Photography-by-Nicole_14.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+.hero img {
+    width: 100%;
 }
 
 /* About Section */
 .about-me {
     padding: 10px 35px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Work Section */
@@ -65,8 +66,20 @@ header nav a {
     padding: 10px 35px;
 }
 
+.first-row img {
+    width: 80%;
+}
+
 .second-row img {
-    
+    width: 40%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.third-row img {
+    width: 40%;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
 /* Contact Section */
