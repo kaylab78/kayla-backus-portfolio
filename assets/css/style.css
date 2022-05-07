@@ -42,11 +42,17 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    gap: 15px;
 }
 
 header nav a {
     text-decoration: none;
     color: var(--third-color);
+}
+
+header nav a:hover {
+    background-color: var(--first-color);
+    color: var(--second-color);
 }
 
 /* Hero */
@@ -59,7 +65,11 @@ header nav a {
     padding: 10px 35px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.about-me
 
 /* Work Section */
 .my-work {
@@ -80,19 +90,33 @@ header nav a {
 /* Contact Section */
 .contact-me {
     padding: 10px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 .contact-me ul {
+    list-style: none;
+}
+
+/* .contact-me ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     list-style: none;
-}
+} */
 
 .contact-me ul li a {
-    text-decoration: underline;
+    text-decoration: none;
     color: var(--third-color);
+}
+
+.contact-me ul li a:hover {
+    background-color: var(--second-color);
+    color: var(--first-color);
 }
 
 /* Footer */
