@@ -5,9 +5,9 @@
 }
 
 :root {
-    --first-color: #fff;
-    --second-color: #000;
-    --third-color: #c2c2c2;
+    --first-color: #BBAFA6;
+    --second-color: #1E150F;
+    --third-color: #5F4D42;
 }
 
 body {
@@ -31,7 +31,7 @@ header h1 {
     margin: 0;
 }
 
-header h1 a {
+header a {
     color: var(--first-color);
     text-decoration: none;
 }
@@ -43,11 +43,6 @@ header nav ul {
     align-items: center;
     list-style: none;
     gap: 15px;
-}
-
-header nav a {
-    text-decoration: none;
-    color: var(--third-color);
 }
 
 header nav a:hover {
@@ -92,8 +87,8 @@ main {
 }
 
 .first-row img {
-    width: 60%;
-}
+    width: 80%;
+} 
 
 .second-row img {
     width: 100%;
@@ -110,6 +105,14 @@ main {
     flex-direction: column;
     align-items: center;
     width: 50%;
+}
+
+.left-project {
+    padding: 0 10px 0 0;
+}
+
+.right-project {
+    padding: 0 0 0 10px;
 }
 
 /* Contact Section */
