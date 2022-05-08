@@ -20,9 +20,9 @@ To view the repository on GitHub, visit [https://github.com/kaylab78/kayla-backu
 To view the deployed website, visit [https://kaylab78.github.io/kayla-backus-portfolio/](https://kaylab78.github.io/kayla-backus-portfolio/).
 
 ## Credits
-Frequently referenced during this project was [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](A Complete Guide to Flexbox by CSS-Tricks).
+Frequently referenced during this project was [A Complete Guide to Flexbox by CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
-The wording for the license on this project is from the MIT License outlined [https://choosealicense.com/licenses/mit/](here).
+The wording for the license on this project is from the MIT License outlined [here](https://choosealicense.com/licenses/mit/).
 
 ## License
 Copyright (c) 2022 Kayla Backus
