@@ -91,12 +91,6 @@ main {
     padding: 10px 35px;
 }
 
-/* .my-work div {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-} */
-
 .first-row {
     text-align: center;
     padding: 15px;
@@ -120,13 +114,8 @@ main {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    width: 50%;
 }
-
-/* .second-row {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-} */
 
 /* Contact Section */
 .contact-me {
@@ -141,14 +130,6 @@ main {
 .contact-me ul {
     list-style: none;
 }
-
-/* .contact-me ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-} */
 
 .contact-me ul li a {
     text-decoration: none;
