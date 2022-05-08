@@ -171,7 +171,20 @@ footer p {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-    
+    .about-content {
+        padding: 10px 35px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .about-content img {
+        width: 50%;
+        padding: 0 0 10px 0;
+    }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
