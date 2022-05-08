@@ -5,9 +5,9 @@
 }
 
 :root {
-    --first-color: #BBAFA6;
-    --second-color: #1E150F;
-    --third-color: #5F4D42;
+    --first-color: #fff;
+    --second-color: #000;
+    --third-color: #BBAFA6;
 }
 
 body {
@@ -43,6 +43,7 @@ header nav ul {
     align-items: center;
     list-style: none;
     gap: 15px;
+    font-size: 18px;
 }
 
 header nav a:hover {
@@ -74,6 +75,7 @@ main {
 
 .about-content img {
     width: 30%;
+    padding: 0 0 0 10px;
 }
 
 /* Work Section */
@@ -148,4 +150,31 @@ footer {
 
 footer p {
     font-size: 12px;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        gap: 15px;
+        font-size: 20px;
+    }
+
+    .contact-me ul {
+        font-size: 18px;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    
 }
