@@ -5,10 +5,10 @@ This is my first portfolio. I plan to add projects to it in the future when I ha
 
 One issue that I faced in this project was correctly using flexbox properties on the elements in the code—particularly on the second and third projects in the My Work section. I eventually figured out that I had to put each project in its own div in order to get the projects where I wanted them on the page. In addition to practicing flexbox, this reiterated the CSS Box Model for me. The items on the page are in their own "boxes."
 
-In the future, I want to create a pseudo class where when you hover over a project, the image turns from grayscale to color. I also want to add shadows to the images on the page.
+In the future, I want to create a pseudo class where when you hover over a project, the image turns from grayscale to color. I also want to add shadows to the images on the page. I may also have to address the file sizes of the images. They appear to be loading slowly, and if I'm going to add more, they all need to be a reasonable file size.
 
 ## Installation
-In order to access this repository, the user needs to clone it from GitHub using the command git clone git@github.com:kaylab78/kayla-backus-portfolio.git in their command line interface.
+In order to access this repository, the user needs to clone it from GitHub using the command "git clone git@github.com:kaylab78/kayla-backus-portfolio.git" in their command line interface.
 
 ## Usage
 Click on the menu items at the top of the page to jump to the corresponding section.
