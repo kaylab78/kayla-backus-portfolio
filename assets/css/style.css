@@ -91,15 +91,16 @@ main {
     padding: 10px 35px;
 }
 
+.my-work div {
+    text-align: center;
+}
+
 .first-row img {
     width: 80%;
 }
 
 .second-row img {
     width: 40%;
-    display: inline-flex;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
 /* Contact Section */
