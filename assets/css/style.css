@@ -92,16 +92,24 @@ main {
 }
 
 .my-work div {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .first-row img {
-    width: 80%;
+    width: 60%;
 }
 
-.second-row img {
+/* .second-row img {
     width: 40%;
-}
+} */
+
+/* .second-row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+} */
 
 /* Contact Section */
 .contact-me {
