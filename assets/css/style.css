@@ -72,7 +72,7 @@ main {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-}
+} 
 
 .about-content {
     display: flex;
@@ -91,19 +91,24 @@ main {
     padding: 10px 35px;
 }
 
-.my-work div {
+/* .my-work div {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+} */
+
+.first-row {
+    text-align: center;
+    padding: 15px;
 }
 
 .first-row img {
     width: 60%;
 }
 
-/* .second-row img {
+.second-row img {
     width: 40%;
-} */
+}
 
 /* .second-row {
     display: flex;
