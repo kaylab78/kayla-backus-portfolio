@@ -55,14 +55,15 @@ header nav a:hover {
     color: var(--second-color);
 }
 
-/* Hero */
+/* Hero 
 .hero img {
     width: 100%;
-}
+} */
 
 /* About Section */
-.content {
+main {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .about-me {
@@ -71,6 +72,18 @@ header nav a:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content img {
+    width: 30%;
 }
 
 /* Work Section */
