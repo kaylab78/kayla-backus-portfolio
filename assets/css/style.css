@@ -107,7 +107,19 @@ main {
 }
 
 .second-row img {
-    width: 40%;
+    width: 100%;
+}
+
+.second-row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* .second-row {
