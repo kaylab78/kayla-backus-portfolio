@@ -13,7 +13,7 @@ In order to access this repository, the user needs to clone it from GitHub using
 ## Usage
 Click on the menu items at the top of the page to jump to the corresponding section.
 
-For example, if "My Work" in the navigation menue is clicked (as shown here),
+For example, if "My Work" in the navigation menu is clicked (as shown here),
     ![The navigation bar is black and says "Kayla Backus" on the left side. On the right side of the black bar are the words About Me, My Work, and Contact Me.](assets/images/screenshot-1.png)
 
 the page will jump to the My Work section (shown here).
