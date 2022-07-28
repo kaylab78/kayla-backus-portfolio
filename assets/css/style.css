@@ -8,6 +8,8 @@
     --first-color: #fff;
     --second-color: #000;
     --third-color: #BBAFA6;
+    --fourth-color: #4C6A6E;
+    --fifth-color: #C7ACA7;    
 }
 
 body {
@@ -117,15 +119,24 @@ main {
 }
 
 .left-project {
-    padding: 0 10px 0 0;
+    padding: 15px 10px 0 0;
 }
 
 .right-project {
-    padding: 0 0 0 10px;
+    padding: 15px 0 0 10px;
 }
 
 .border {
     border: 1px solid gray;
+}
+
+.project-link {
+    color: var(--fourth-color);
+}
+
+.github-link {
+    color: var(--fourth-color);
+    text-decoration: none;
 }
 
 /* Contact Section */
@@ -249,14 +260,7 @@ footer p {
 
     .project {
         width: 100%;
-    }
-
-    .left-project {
         padding: 0 0 10px 0;
-    }
-
-    .right-project {
-        padding: 0;
     }
 
     .contact-me {
