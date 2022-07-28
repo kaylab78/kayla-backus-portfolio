@@ -46,9 +46,16 @@ header nav ul {
     font-size: 18px;
 }
 
+header nav a {
+    padding: 10px;
+    border-radius: 5px;
+}
+
 header nav a:hover {
     background-color: var(--first-color);
     color: var(--second-color);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /* About Section */
@@ -138,11 +145,15 @@ main {
 .contact-me ul li a {
     text-decoration: none;
     color: var(--third-color);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .contact-me ul li a:hover {
     background-color: var(--second-color);
     color: var(--first-color);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /* Footer */
@@ -262,6 +273,10 @@ footer p {
         flex-wrap: wrap;
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .contact-me ul li {
+        padding: 4px;
     }
 
 }
