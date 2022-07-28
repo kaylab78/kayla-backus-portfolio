@@ -83,8 +83,13 @@ main {
 }
 
 .about-content img {
-    width: 30%;
-    padding: 0 0 0 10px;
+    width: 20%;
+    border-radius: 300px;
+    /* box-shadow: 5px 5px 10px 15px grey; */
+}
+
+.about-body {
+    padding: 0 30px 0 0;
 }
 
 /* Work Section */
@@ -119,11 +124,11 @@ main {
 }
 
 .left-project {
-    padding: 15px 10px 0 0;
+    padding: 25px 15px 0 0;
 }
 
 .right-project {
-    padding: 15px 0 0 10px;
+    padding: 25px 0 0 15px;
 }
 
 .border {
