@@ -82,7 +82,7 @@ main {
 
 .about-content {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 .about-text {
@@ -247,8 +247,14 @@ footer p {
     }
 
     .about-content img {
-        width: 70%;
+        width: 50%;
         padding: 0 0 10px 0;
+    }
+
+    .about-details {
+        display: flex;
+        padding: 15px 0 0 0;
+        flex-direction: column;
     }
 }
 
@@ -280,8 +286,14 @@ footer p {
     }
 
     .about-content img {
-        width: 100%;
+        width: 70%;
         padding: 0 0 10px 0;
+    }
+
+    .about-details {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0 0 0;
     }
 
     .first-row img {
