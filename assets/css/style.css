@@ -92,6 +92,12 @@ main {
     padding: 0 30px 0 0;
 }
 
+.about-additional {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
 /* Work Section */
 .my-work {
     padding: 10px 35px;
@@ -193,6 +199,11 @@ footer p {
         list-style: none;
         gap: 15px;
         font-size: 20px;
+    }
+
+    .about-content img {
+        width: 40%;
+        padding: 0 0 10px 0;
     }
 
     .contact-me ul {
