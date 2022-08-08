@@ -99,6 +99,9 @@ main {
 /* Project Section */
 .my-work {
     padding: 10px 35px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .first-row {
